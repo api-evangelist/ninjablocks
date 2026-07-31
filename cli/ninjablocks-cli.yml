@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  npm package ninja-toolbelt@0.2.14 (registry.npmjs.org) +
+  github.com/ninjablocks/ninja-toolbelt. Ninja Blocks Inc is defunct; captured
+  from the surviving published npm entry and first-party source repository.
+provider: ninjablocks
+name: ninja-toolbelt
+binary: ninja
+description: >-
+  CLI utility belt for Ninja Blocks — the first-party command-line tool for
+  the Ninja Blocks IoT platform, used to bootstrap and manage Ninja Block
+  devices and to talk to the Ninja REST API (https://api.ninja.is/rest/v0/).
+version: 0.2.14
+official: true
+repository: https://github.com/ninjablocks/ninja-toolbelt
+install:
+  - method: npm
+    command: npm install -g ninja-toolbelt
+languages:
+  - JavaScript (Node.js)
+notes: >-
+  Distributed via npm. The historical Ninja Blocks cloud platform it targeted
+  is no longer operational, so the CLI is retained here for provenance rather
+  than active use.

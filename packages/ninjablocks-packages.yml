@@ -1,0 +1,73 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  npm registry (registry.npmjs.org) + github.com/ninjablocks org repositories.
+  Ninja Blocks Inc is defunct (ninjablocks.com and api.ninjablocks.com no
+  longer resolve); packages are captured from surviving published registry
+  entries and first-party source repositories.
+provider: ninjablocks
+name: Ninja Blocks client packages
+notes: >-
+  Historical first-party client libraries for the Ninja Blocks IoT platform
+  (REST API base https://api.ninja.is/rest/v0/). Two libraries remain published
+  to npm; the remaining language ports are first-party but distributed as GitHub
+  source only (never published to a package registry).
+packages:
+  - name: ninja-blocks
+    ecosystem: npm
+    registry: https://www.npmjs.com/package/ninja-blocks
+    version: 0.1.3
+    description: Library for interfacing with the Ninja Blocks platform.
+    language: JavaScript
+    repository: https://github.com/ninjablocks/node-ninja-blocks
+    license: MIT
+    official: true
+  - name: ninja-toolbelt
+    ecosystem: npm
+    registry: https://www.npmjs.com/package/ninja-toolbelt
+    version: 0.2.14
+    description: CLI utility belt for Ninja Blocks.
+    language: JavaScript
+    repository: https://github.com/ninjablocks/ninja-toolbelt
+    kind: cli
+    official: true
+  - name: php-ninja-blocks
+    ecosystem: github
+    registry: https://github.com/ninjablocks/php-ninja-blocks
+    description: PHP library for interacting with the Ninja Blocks platform.
+    language: PHP
+    repository: https://github.com/ninjablocks/php-ninja-blocks
+    official: true
+    published: false
+  - name: ruby-ninja-blocks
+    ecosystem: github
+    registry: https://github.com/ninjablocks/ruby-ninja-blocks
+    description: Ruby helper library for Ninja Blocks.
+    language: Ruby
+    repository: https://github.com/ninjablocks/ruby-ninja-blocks
+    official: true
+    published: false
+  - name: ninja-lua
+    ecosystem: github
+    registry: https://github.com/ninjablocks/ninja-lua
+    description: Ninja Blocks Lua library.
+    language: Lua
+    repository: https://github.com/ninjablocks/ninja-lua
+    official: true
+    published: false
+  - name: arduino-ninja-blocks
+    ecosystem: github
+    registry: https://github.com/ninjablocks/arduino-ninja-blocks
+    description: Arduino library for connecting to the Ninja API.
+    language: C++
+    repository: https://github.com/ninjablocks/arduino-ninja-blocks
+    official: true
+    published: false
+  - name: passport-ninja-blocks
+    ecosystem: github
+    registry: https://github.com/ninjablocks/passport-ninja-blocks
+    description: Passport (Node.js) authentication strategy for Ninja Blocks.
+    language: JavaScript
+    repository: https://github.com/ninjablocks/passport-ninja-blocks
+    official: true
+    published: false

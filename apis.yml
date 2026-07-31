@@ -1,7 +1,17 @@
 aid: ninjablocks
 name: NinjaBlocks
-description: NinjaBlocks is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ninja Blocks Inc was an Australian Internet-of-Things startup (founded 2012,
+  backed by 500 Global / 500 Startups) behind the Ninja Block and Ninja Sphere
+  home-automation hubs. It offered a cloud-connected platform with a RESTful API
+  (base https://api.ninja.is/rest/v0/) for reading sensor data and controlling
+  actuators, plus first-party client libraries for Node.js, PHP, Ruby, Lua and
+  Arduino, a `ninja-toolbelt` CLI, and OAuth-based authentication. The company
+  ceased operation and its web and API hosts are no longer online; this profile
+  preserves the surviving first-party open-source client libraries and API
+  tooling published to npm and GitHub. Added to the API Evangelist network from
+  the 500 Global portfolio and enriched from public package registries and the
+  github.com/ninjablocks organization.
 url: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,46 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://avatars.githubusercontent.com/u/1387630?v=4
 tags:
 - Company
-apis: []
+- Internet of Things
+- IoT
+- Home Automation
+- Smart Home
+- Sensors
+- Hardware
+- REST API
+- Defunct
+apis:
+- name: Ninja Blocks REST API
+  description: >-
+    Historical RESTful API for the Ninja Blocks IoT platform, used to read
+    device/sensor data and actuate devices. No longer operational; documented
+    here from surviving first-party client libraries.
+  humanURL: https://github.com/ninjablocks/developer-docs
+  baseURL: https://api.ninja.is/rest/v0/
+  tags:
+  - IoT
+  - REST API
+  properties:
+  - type: SourceCode
+    url: https://github.com/ninjablocks/node-ninja-blocks
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +67,18 @@ maintainers:
 common:
 - type: Website
   url: https://ninjablocks.com
+- type: GitHubOrganization
+  url: https://github.com/ninjablocks
+- type: SourceCode
+  url: https://github.com/ninjablocks
+- type: SDKs
+  url: packages/ninjablocks-packages.yml
+- type: Packages
+  url: packages/ninjablocks-packages.yml
+- type: CLI
+  url: cli/ninjablocks-cli.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
