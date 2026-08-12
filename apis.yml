@@ -65,6 +65,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/ninjablocks/node-ninja-blocks/issues
+- type: License
+  name: MIT
+  url: https://github.com/ninjablocks/node-ninja-blocks/blob/master/LICENSE
 - type: Website
   url: https://ninjablocks.com
 - type: GitHubOrganization
